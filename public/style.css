@@ -1,0 +1,197 @@
+body{
+    margin:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#1f5764;
+    text-align: center;
+}
+table,th,td{
+    border: none;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+table{
+    width: 80%;
+    height: 80vh;
+    font-size: 18px;
+    color:#ffff;
+    
+}
+th{
+    background-color:#012C3C;
+    /* color: rgb(209, 209, 13); */
+    
+    color: #ffdab9;
+    padding-left: 10px;
+    text-align: center;
+}
+td{
+   padding: 0.8rem;
+   margin: 2rem;
+}
+tr{
+    background-color: #05303a;
+    height: 4rem;
+}
+
+tr:nth-child(even){
+    background-color: #05425895;
+}
+tr:hover{
+    background-color:rgba(84, 152, 167, 0.324);
+    transition:.5s;
+}
+.btn{
+    width: 5rem;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    background: #1e152287;
+    color: white;
+    cursor: pointer;
+    border: 1px solid;
+    
+}
+.btn:hover{
+    transform: translateY(-2px);
+  box-shadow: 0px 6px 0px #042042;
+}
+h1 {
+    margin: 0; /* Removes extra margin */
+    /* text-decoration:underline; */
+    color: #ffd53d;
+    
+}
+
+.btn_adduser {
+    background-color: #0C2d48; /* Blue background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn_adduser:hover {
+    background-color: #17252a;
+}
+
+/* Positioning the button in the top-right corner */
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+.form{
+    height: 34rem;
+    width: 38rem;
+    background-color: #022C3B;
+    color: #ffd53d;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+  
+}
+.container{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form input{
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background:whitesmoke;
+    border-radius: 1rem;
+    margin-left: 0.7rem;
+    
+}
+p{
+    font-size: 1.4rem;
+}
+.btn_submit {
+    margin-top: 4.5rem;
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    /* background-color: #D4C9BE; */
+    background: #1e152287;
+    border: 2px solid;
+    font-weight: 600;
+    color: white;
+}
+/* -------------------------------------------------------------------- */
+.edit_form{
+    height: 20rem;
+    width: 34rem;
+    background-color: #022C3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+
+}
+.textarea-input{
+    width: 15rem;
+    height: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.box{
+    margin-top: 4rem;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    align-items:start;
+    
+
+}
+.small-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#btn_edit{
+    margin-top: 3.4rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    /* background-color: #D4C9BE; */
+    background: #1e152287;
+    border: 2px solid;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+.input-container {
+    display: flex;
+    align-items: center; /* Aligns label and input vertically */
+    justify-content: flex-start; 
+    gap: 10px;/* Centers them horizontally */
+}
+
+.input-container label {
+    font-weight: normal;
+    margin-right: 10px; /* Adds spacing between label and input */
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 11px;
+    color: #ffd53d;
+}
+

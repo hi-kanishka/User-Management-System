@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>For deletion enter correct email id and password</h1>
+        <div class="small-box">
+            <form class="edit_form" action="/users/<%=id%>?_method=DELETE" method="post">
+                <div class="input-container">
+                    <label for="email">&nbsp;&nbsp;&nbsp; Email : </label>
+                    <input class="textarea-input" type="email" name="email" placeholder="Your email">
+                </div>
+
+                
+                <div class="input-container">
+                    <label for="password">Password :</label>
+                    <input class="textarea-input" type="password" placeholder="Your password" name="password">
+                </div>
+                <button id="btn_edit" type="submit">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
